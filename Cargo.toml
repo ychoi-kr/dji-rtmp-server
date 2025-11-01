@@ -1,0 +1,13 @@
+[package]
+name = "dji-rtmp-server"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+anyhow = "1.0.100"
+bytes = "1.10.1"
+env_logger = "0.11.8"
+log = "0.4.28"
+rml_amf0 = "0.3.0"
+rml_rtmp = "0.8.0"
+tokio = { version = "1.48.0", features = ["full"] }
