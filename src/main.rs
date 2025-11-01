@@ -44,7 +44,7 @@ async fn main() -> Result<()> {
         .init();
 
     let listener = TcpListener::bind("0.0.0.0:1935").await?;
-    info!("DJI Neo RTMP server started → rtmp://<PC-IP>:1935/live/mystream");
+    info!("Neo RTMP server started → rtmp://<PC-IP>:1935/live/mystream");
     info!("Play in OBS: rtmp://<PC-IP>:1935/live/mystream");
 
     // 스트림 레지스트리 생성 (앱명/스트림키 → 브로드캐스터 매핑)

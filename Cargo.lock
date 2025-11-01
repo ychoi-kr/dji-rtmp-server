@@ -135,19 +135,6 @@ dependencies = [
 ]
 
 [[package]]
-name = "dji-rtmp-server"
-version = "0.1.0"
-dependencies = [
- "anyhow",
- "bytes",
- "env_logger",
- "log",
- "rml_amf0",
- "rml_rtmp",
- "tokio",
-]
-
-[[package]]
 name = "env_filter"
 version = "0.1.4"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -267,6 +254,19 @@ dependencies = [
  "libc",
  "wasi",
  "windows-sys 0.61.2",
+]
+
+[[package]]
+name = "neo-rtmp-server"
+version = "0.1.0"
+dependencies = [
+ "anyhow",
+ "bytes",
+ "env_logger",
+ "log",
+ "rml_amf0",
+ "rml_rtmp",
+ "tokio",
 ]
 
 [[package]]
